@@ -11,6 +11,9 @@ public class UsuariosServices {
 //    DB database = new ArrayDB();
     DB database = new FileDB();
     public UsuariosServices(){}
+    public ArrayList<Usuario> devolverLista(){
+        return database.leerUsuarios();
+    }
     public Usuario obtenerUsuario(String nombre){
         for(Usuario temp : database.leerUsuarios()){
             if (temp.nombre.equalsIgnoreCase(nombre)){

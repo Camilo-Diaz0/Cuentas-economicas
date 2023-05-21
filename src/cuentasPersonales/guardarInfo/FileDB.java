@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileDB implements DB{
-    public String filetype = "cuenta.txt";
+    public String filetype = "C:\\Users\\cami-\\Downloads\\programacion\\ejercicio\\java\\proyectosJava\\CuentasPersonales\\cuenta.txt";
     //ArrayList<Usuario> usuarios = new ArrayList<>();
     public FileDB(){}
     public String transformarUsuario(Usuario usuario){
